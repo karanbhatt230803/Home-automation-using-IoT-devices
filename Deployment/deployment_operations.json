@@ -1,0 +1,19 @@
+[
+  {
+    "id": "/subscriptions/a7753200-3f73-4788-8640-7798e592cc84/resourceGroups/Home-Automation/providers/Microsoft.Resources/deployments/IOT-SGP-92105129/operations/7014D63136609FD6",
+    "operationId": "7014D63136609FD6",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2023-09-02T05:22:00.1609474Z",
+      "duration": "PT24.6948154S",
+      "trackingId": "9c4c7878-d6fe-4673-9bb9-e765b64be352",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/a7753200-3f73-4788-8640-7798e592cc84/resourceGroups/Home-Automation/providers/Microsoft.Devices/IotHubs/IOT-SGP",
+        "resourceType": "Microsoft.Devices/IotHubs",
+        "resourceName": "IOT-SGP"
+      }
+    }
+  }
+]
