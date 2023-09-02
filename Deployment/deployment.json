@@ -1,0 +1,130 @@
+{
+  "id": "/subscriptions/a7753200-3f73-4788-8640-7798e592cc84/resourceGroups/Home-Automation/providers/Microsoft.Resources/deployments/IOT-SGP-92105129",
+  "name": "IOT-SGP-92105129",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/a7753200-3f73-4788-8640-7798e592cc84/resourcegroups/Home-Automation/providers/Microsoft.Devices/IotHubs/IOT-SGP",
+    "marketplaceItemId": "Microsoft.IotHub",
+    "provisioningHash": "IOT-SGP-92105129"
+  },
+  "properties": {
+    "templateHash": "5374710034132962509",
+    "parameters": {
+      "hubname": {
+        "type": "String",
+        "value": "IOT-SGP"
+      },
+      "location": {
+        "type": "String",
+        "value": "centralindia"
+      },
+      "sku_name": {
+        "type": "String",
+        "value": "F1"
+      },
+      "sku_units": {
+        "type": "String",
+        "value": "1"
+      },
+      "d2c_partitions": {
+        "type": "String",
+        "value": "2"
+      },
+      "features": {
+        "type": "String",
+        "value": "None"
+      },
+      "tags": {
+        "type": "Object",
+        "value": {}
+      },
+      "cloudEnvironment": {
+        "type": "String",
+        "value": "public"
+      },
+      "principalId": {
+        "type": "String",
+        "value": "477a81ac-fd47-4d1c-972e-0262d3adad58"
+      },
+      "iotHubDataContributorRoleDefinitionId": {
+        "type": "String",
+        "value": "/subscriptions/a7753200-3f73-4788-8640-7798e592cc84/resourcegroups/Home-Automation/providers/Microsoft.Authorization/roleDefinitions/4fc6c259-987e-4a07-842e-c321cc9d413f"
+      },
+      "enableDataResidency": {
+        "type": "Bool",
+        "value": false
+      },
+      "securityEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "deviceUpdates": {
+        "type": "Bool",
+        "value": false
+      },
+      "deviceUpdateAdministratorRoleDefinitionId": {
+        "type": "String",
+        "value": "/subscriptions/a7753200-3f73-4788-8640-7798e592cc84/resourcegroups/Home-Automation/providers/Microsoft.Authorization/roleDefinitions/02ca0879-e8e4-47a5-a61e-5c618b76e64a"
+      },
+      "deviceUpdateAppObjectId": {
+        "type": "String",
+        "value": "e6c17e40-1542-4a44-9e8e-971232625ea8"
+      },
+      "deviceUpdateAccountResourceGroupName": {
+        "type": "String",
+        "value": "Home-Automation"
+      },
+      "deviceUpdateAccountName": {
+        "type": "String",
+        "value": "IOT-SGP"
+      },
+      "deviceUpdateInstanceName": {
+        "type": "String",
+        "value": "IOT-SGP"
+      },
+      "deviceUpdateAccountLocation": {
+        "type": "String",
+        "value": ""
+      },
+      "deviceUpdateSku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "createDeviceUpdateAccount": {
+        "type": "Bool",
+        "value": true
+      },
+      "deviceUpdateRoleAssignment": {
+        "type": "Bool",
+        "value": true
+      },
+      "deviceUpdateIothubContributorRoleAssignment": {
+        "type": "Bool",
+        "value": true
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2023-09-02T05:22:00.1266246Z",
+    "duration": "PT25.1434531S",
+    "correlationId": "3ea32e81-fe3a-4d5a-a6e2-d49546291321",
+    "providers": [
+      {
+        "namespace": "Microsoft.Devices",
+        "resourceTypes": [
+          {
+            "resourceType": "IotHubs",
+            "locations": [
+              "centralindia"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "validationLevel": "Template"
+  }
+}
